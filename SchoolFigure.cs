@@ -12,27 +12,26 @@ namespace notCorporate
         public string firstName;
         public string lastName;
         public string email;
-
-        public int numberOfHoursWorked;
-        public double wage;
-        public double hourlyRate;
-        public RollType rollType;
-        public Array studentGrades; 
-
-        public DateTime dob;
-
-
+        public double? hourlyRate;
+        public RollType? rollType;
+        public int []? studentGrades = new int[] {100,82 };
+        public string[]? comments = new string[] {"does good work", "learns fast" };
+        public DateTime? dob= new DateTime?();
+        public DateTime? dateCreated= new DateTime?();
         const int minimalHoursWorkedUnit = 1;
 
-        public SchoolFigure(string first, string last, string em, DateTime birthdate, double rate, RollType roll, Array grades) 
+        public SchoolFigure(string first, string last, string em, DateTime db, double rate, RollType roll, int [] grades,string [] notes, DateTime created) 
         {
             firstName = first;
             lastName = last;
             email = em;
-            dob = birthdate;
+            dateCreated = created;
             hourlyRate = rate;
             rollType = roll;
-            studentGrades = grades;
+            studentGrades =  grades;
+            comments = notes;
+            dob = db;
+
         } 
     }
 }

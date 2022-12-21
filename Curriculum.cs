@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,7 @@ namespace notCorporate
 
         public DateTime birthDay;
 
-        const int minimalHoursWorkedUnit = 1;
+        const int minimalHoursWorkedUnit = 1;*/
 
    /*     public SchoolFigure(string first, string last, string em, DateTime bd, double rate, RollType roll)
         {
@@ -47,7 +47,7 @@ namespace notCorporate
             Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHours} hour(s)!");
         }*/
 
-        public int CalculateBonus(int bonus)
+/*        public int CalculateBonus(int bonus)
         {
 
             if (numberOfHoursWorked > 10)
@@ -55,7 +55,7 @@ namespace notCorporate
 
             Console.WriteLine($"The employee got a bonus of {bonus}");
             return bonus;
-        }
+        }*/
 
         //public int CalculateBonusAndBonusTax(int bonus, ref int bonusTax)
         //{
@@ -73,7 +73,7 @@ namespace notCorporate
         //    return bonus;
         //}
 
-        public int CalculateBonusAndBonusTax(int bonus, out int bonusTax)
+/*        public int CalculateBonusAndBonusTax(int bonus, out int bonusTax)
         {
             bonusTax = 0;
             if (numberOfHoursWorked > 10)
@@ -116,3 +116,4 @@ namespace notCorporate
         }
     }
 }
+*/

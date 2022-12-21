@@ -1,12 +1,25 @@
 using notCorporate;
-Managers officeManager= new Managers();
+using System.Runtime.InteropServices;
+DateTime oneTwentyDaysAgo = DateTime.Today.AddDays(120);
+DateTime TwentyDaysAgo = DateTime.Today.AddDays(120);
+
+
+SchoolFigure Joseyparent = new SchoolFigure("wilmer", "rivera", "706@gmail", TwentyDaysAgo,15.5 , RollType.Developer, new int[32],new string[32] , oneTwentyDaysAgo);
+if (Joseyparent != null)
+{
+    Console.WriteLine("it worked");
+}
+else
+{
+    Console.WriteLine("did not work");
+}
 //var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 /*builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddEndpointsApiExplorer();n
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

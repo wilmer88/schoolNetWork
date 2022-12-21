@@ -1,4 +1,4 @@
-﻿namespace notCorporate
+﻿/*namespace notCorporate
 {
     public class CEOclass
     {
@@ -8,3 +8,4 @@
 
     }
 }
+*/
