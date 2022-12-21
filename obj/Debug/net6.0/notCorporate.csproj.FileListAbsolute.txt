@@ -14,8 +14,6 @@ C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.Generated
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.AssemblyInfoInputs.cache
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.AssemblyInfo.cs
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.csproj.CoreCompileInputs.cache
-C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\staticwebassets\msbuild.notCorporate.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\staticwebassets\msbuild.build.notCorporate.props
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.notCorporate.props
@@ -30,3 +28,5 @@ C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\refint\notCorporate.dl
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.pdb
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.genruntimeconfig.cache
 C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\ref\notCorporate.dll
+C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\wilme\source\repos\notCorporate\obj\Debug\net6.0\notCorporate.MvcApplicationPartsAssemblyInfo.cache

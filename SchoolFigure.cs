@@ -15,7 +15,7 @@ namespace notCorporate
         public double? hourlyRate;
         public RollType? rollType;
         public int []? studentGrades = new int[] {100,82 };
-        public string[]? comments = new string[] {"does good work", "learns fast" };
+        public string[]? comments = new string[] { "does good work", "learns fast" };
         public DateTime? dob= new DateTime?();
         public DateTime? dateCreated= new DateTime?();
         const int minimalHoursWorkedUnit = 1;

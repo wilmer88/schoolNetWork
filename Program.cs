@@ -3,23 +3,26 @@ using System.Runtime.InteropServices;
 DateTime oneTwentyDaysAgo = DateTime.Today.AddDays(120);
 DateTime TwentyDaysAgo = DateTime.Today.AddDays(120);
 
+SchoolFigure Joseyparent = new("wilmer", "rivera", "706@gmail", TwentyDaysAgo, 15.5, RollType.Developer, new int[32], notes: new string[32], oneTwentyDaysAgo);
 
-SchoolFigure Joseyparent = new SchoolFigure("wilmer", "rivera", "706@gmail", TwentyDaysAgo,15.5 , RollType.Developer, new int[32],new string[32] , oneTwentyDaysAgo);
 if (Joseyparent != null)
 {
-    Console.WriteLine("it worked");
+    List<SchoolFigure> schoolFigures= new();
+    Console.WriteLine("worked");
+
+    Console.WriteLine(schoolFigures);
 }
 else
 {
     Console.WriteLine("did not work");
 }
-//var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-/*builder.Services.AddControllers();
+builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();n
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -37,4 +40,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();*/
+app.Run();
