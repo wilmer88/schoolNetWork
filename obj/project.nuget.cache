@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gB8+qXsxlGtRXhktBBhO/qRvjIrLEkEm4ISfplmtxDdP3xXITE86NqD3TJJBjvL628DN5s1QE5Mer0UBgaSKQg==",
+  "dgSpecHash": "wR4n89tE+edp6kq/N+deNqgqqqLW7FFztA+NtAUNq1XAOOfsZh+0C9RlGFnwhSCk+nrbAk1/kDCzDJ1sjPr25w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wilme\\source\\repos\\notCorporate\\notCorporate.csproj",
+  "projectFilePath": "C:\\Users\\wilme\\Source\\Repos\\cschool\\notCorporate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wilme\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\wilme\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
