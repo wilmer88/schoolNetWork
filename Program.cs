@@ -1,10 +1,11 @@
 using notCorporate;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
-DateTime oneTwentyDaysAgo = DateTime.Today.AddDays(120);
+DateTime oneTwentyDaysAgo = DateTime.Today.AddDays(2);
+
 DateTime TwentyDaysAgo = DateTime.Today.AddDays(120);
 
-SchoolFigure Joseyparent = new("wilmer", "rivera", "706@gmail", TwentyDaysAgo, 15.5, RollType.Developer, new int[32], notes: new string[32], oneTwentyDaysAgo);
+SchoolFigure Joseyparent = new("wilmer", "rivera", "706@gmail", TwentyDaysAgo, 15.5, "Developer", new int[32], notes: new string[32], oneTwentyDaysAgo);
 
 if (Joseyparent != null)
 {

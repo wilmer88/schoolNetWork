@@ -7,20 +7,20 @@ using System.Threading.Tasks;
 
 namespace notCorporate
 {
-    internal class SchoolFigure
+    public class SchoolFigure
     {
-        public string firstName;
-        public string lastName;
-        public string email;
+        public string? firstName;
+        public string? lastName;
+        public string? email;
         public double? hourlyRate;
-        public RollType? rollType;
+        public string? rollType;
         public int []? studentGrades = new int[] {100,82 };
         public string[]? comments = new string[] { "does good work", "learns fast" };
         public DateTime? dob= new DateTime?();
         public DateTime? dateCreated= new DateTime?();
         const int minimalHoursWorkedUnit = 1;
 
-        public SchoolFigure(string first, string last, string em, DateTime db, double rate, RollType roll, int [] grades,string [] notes, DateTime created) 
+        public SchoolFigure(string first, string last, string em, DateTime db, double rate, string roll, int [] grades,string [] notes, DateTime created) 
         {
             firstName = first;
             lastName = last;
