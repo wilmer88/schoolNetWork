@@ -1,5 +1,6 @@
 using notCorporate;
 using System.Runtime.InteropServices;
+using System.Diagnostics;
 DateTime oneTwentyDaysAgo = DateTime.Today.AddDays(120);
 DateTime TwentyDaysAgo = DateTime.Today.AddDays(120);
 
@@ -7,10 +8,8 @@ SchoolFigure Joseyparent = new("wilmer", "rivera", "706@gmail", TwentyDaysAgo, 1
 
 if (Joseyparent != null)
 {
-    List<SchoolFigure> schoolFigures= new();
-    Console.WriteLine("worked");
+    Debug.WriteLine($"it works {Joseyparent}");
 
-    Console.WriteLine(schoolFigures);
 }
 else
 {
@@ -40,4 +39,10 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+NewMethod(app);
+Console.WriteLine("worked");
+
+static void NewMethod(WebApplication app)
+{
+    app.Run();
+}
